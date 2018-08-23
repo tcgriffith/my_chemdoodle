@@ -1,0 +1,38 @@
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link rel="stylesheet" href="css/ChemDoodleWeb.css" type="text/css">
+<script type="text/javascript" src="js/ChemDoodleWeb.js"></script>
+<!--
+<script>
+  var message = 'Hello ChemDoodle!';
+  alert(message);
+</script> -->
+
+<script>
+    function alertMolecule(mol){
+    var message = 'This molecule contains '+mol.atoms.length+' atoms and '+mol.bonds.length+' bonds.';
+    alert(message);
+  }
+  // alertMolecule(new ChemDoodle.structures.Molecule());
+  // the url is the local path to the chemical file
+  ChemDoodle.io.file.content('pdbs/1d0u_A.pdb_1d0t_A.pdb', function(fileContent){
+    var mol = ChemDoodle.readMOL(fileContent);
+    alertMolecule(mol);
+  });
+</script>
+
+<!--
+<script>
+  // print the PDB file to a Javascript variable
+  var pdbFile = "pdbs/1d0u_A.pdb_1d0t_A.pdb";
+  // read the PDB data and store the returned Molecule data structure as the variable, structure
+  var structure = ChemDoodle.readPDB(pdbFile);
+
+  console.log(structure)
+
+   var rotator = new ChemDoodle.RotatorCanvas3D('rotator', 250, 250);
+  rotator.specs.set3DRepresentation('van der Waals Spheres');
+  rotator.specs.backgroundColor = 'black';
+
+  rotator.loadMolecule(structure);
+  rotator.startAnimation();
+</script> -->

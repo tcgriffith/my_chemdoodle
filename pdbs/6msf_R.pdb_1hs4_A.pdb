@@ -1,0 +1,31 @@
+ATOM      1  CA  GLU A   0      16.940  13.391   1.325
+ATOM      2  CA  GLU A   1      12.200  16.575   3.991
+ATOM      3  CA  ALA A   2       9.888  22.679   5.154
+ATOM      4  CA  GLU A   3      10.873  20.199   9.590
+ATOM      5  CA  ALA A   4      12.201  23.768  14.956
+ATOM      6  CA  ASP A   5      16.128  26.876  17.968
+ATOM      7  CA  CYS A   6      21.878  30.724  18.727
+ATOM      8  CA  GLU A   7      25.188  25.949  15.568
+ATOM      9  CA  ALA A   8      30.221  22.906  13.128
+ATOM     10  CA  GLU A   9      29.539  20.513  16.621
+ATOM     11  CA  CYS A  10      24.960  18.849  20.445
+ATOM     12  CA  ASP A  11      19.355  16.323  21.317
+ATOM     13  CA  ASP A  12      14.017  14.229  18.946
+ATOM     14  CA  ASP A  13      10.665  10.717  14.686
+TER
+END
+ATOM      1  CA  ASP A   0      12.726  17.001   4.356
+ATOM      2  CA  GLU A   1      10.374  20.040   9.269
+ATOM      3  CA  ASP A   2      11.924  23.797  14.221
+ATOM      4  CA  CYS A   3      16.288  25.700  18.260
+ATOM      5  CA  CYS A   4      21.999  28.014  19.591
+ATOM      6  CA  ALA A   5      26.069  32.583  16.629
+ATOM      7  CA  ALA A   6      29.042  27.909  13.897
+ATOM      8  CA  ALA A   7      28.353  21.378  12.223
+ATOM      9  CA  CYS A   8      28.870  22.284  17.277
+ATOM     10  CA  GLU A   9      24.862  19.296  20.696
+ATOM     11  CA  ASP A  10      19.332  16.697  21.438
+ATOM     12  CA  GLU A  11      14.105  14.259  19.259
+ATOM     13  CA  ALA A  12      10.935  11.311  14.665
+TER
+END
