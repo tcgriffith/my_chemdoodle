@@ -14,7 +14,7 @@
   }
   // alertMolecule(new ChemDoodle.structures.Molecule());
   // the url is the local path to the chemical file
-  ChemDoodle.io.file.content('/pdbs/1d0u_A.pdb_1d0t_A.pdb', function(fileContent){
+  ChemDoodle.io.file.content('pdbs/1d0u_A.pdb_1d0t_A.pdb', function(fileContent){
     var mol = ChemDoodle.readMOL(fileContent);
     alertMolecule(mol);
   });
