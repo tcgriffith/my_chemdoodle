@@ -15,7 +15,7 @@
   // alertMolecule(new ChemDoodle.structures.Molecule());
   // the url is the local path to the chemical file
   ChemDoodle.io.file.content('pdbs/1a9nR_old.pdb', function(fileContent){
-    var mol = ChemDoodle.readMOL(fileContent);
+    var mol = ChemDoodle.readPDB(fileContent);
     alertMolecule(mol);
   });
 </script>
