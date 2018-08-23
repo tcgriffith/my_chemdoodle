@@ -14,10 +14,18 @@
   }
   // alertMolecule(new ChemDoodle.structures.Molecule());
   // the url is the local path to the chemical file
+  var mol;
   ChemDoodle.io.file.content('pdbs/1a9nR_old.pdb', function(fileContent){
-    var mol = ChemDoodle.readPDB(fileContent);
+    mol = ChemDoodle.readPDB(fileContent);
     alertMolecule(mol);
   });
+
+  var rotator = new ChemDoodle.RotatorCanvas3D('rotator', 250, 250);
+  rotator.specs.set3DRepresentation('van der Waals Spheres');
+  rotator.specs.backgroundColor = 'black';
+
+  rotator.loadMolecule(mol);
+  rotator.startAnimation();
 </script>
 
 <!--
